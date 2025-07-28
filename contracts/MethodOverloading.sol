@@ -1,7 +1,7 @@
 //SPDX-License-Identifier:GPL-3.0
 pragma solidity ^0.8.14;
 
-contract FunctionDemo{
+contract MethodOverloading{
     int a=10;
     function getSum(int b,int c)public view returns(int){
         int sum = a+b+c;

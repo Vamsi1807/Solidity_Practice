@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MethodOverriding.sol": "FunctionDemo"
+			"contracts/MethodOverriding.sol": "MethodOve"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -87,11 +87,11 @@
 	},
 	"sources": {
 		"contracts/MethodOverriding.sol": {
-			"keccak256": "0x23ca6b1172ae08ae483be464cdb89fefa05d865353993a74043d1f2210f9fefa",
+			"keccak256": "0x3e7b10422c7a16b6572c325c5ac49308d9dde5cfd4ef1170d39f4fed07f10a66",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ef8f1d3941eba1ba2639ae2754890d55da5914b34dc22733f04503cd4551e60a",
-				"dweb:/ipfs/QmPSEBBVgX8LtUDjYFPnEdT9CeJTNnQqF2h7J48Hd3PQpk"
+				"bzz-raw://0cbc2906adf9be6940a03295e12426831ea2f986cdc063956ea37c48c954f7eb",
+				"dweb:/ipfs/QmbJmEP73yNrLntDXDEwUU52mpAJb6HmFL7RHAeyYNU2yF"
 			]
 		}
 	},
