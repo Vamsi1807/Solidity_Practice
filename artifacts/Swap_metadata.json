@@ -9,24 +9,29 @@
 				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "b",
+						"name": "a",
 						"type": "int256"
 					},
 					{
 						"internalType": "int256",
-						"name": "c",
+						"name": "b",
 						"type": "int256"
 					}
 				],
-				"name": "getSum",
+				"name": "swap",
 				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
 					{
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -43,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/function_demo.sol": "FunctionDemo"
+			"contracts/LabCycle/Swap.sol": "Swap"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +62,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/function_demo.sol": {
-			"keccak256": "0x1e66b54e9491f548811ef0e30125d947e543a8fb21aac9943dc9821414539bcf",
-			"license": "GPL-3.0",
+		"contracts/LabCycle/Swap.sol": {
+			"keccak256": "0x040f70bcb9f1d5b7b24ce50ba666fe64b1b053dff55a566f5bbbc2d49761bf5d",
 			"urls": [
-				"bzz-raw://b96d8cd0ab062a21da065ead8ffaa6a82b2bcdf2a70f915c8025c8bcb63473d5",
-				"dweb:/ipfs/QmSzXtbJzafgr543tnBybbx1gi1NwoJ4w2GCdaLf4XZQ67"
+				"bzz-raw://ecabee7fd2c582236c77c9a7a151a938757cd59d0ac79b23a541582f64521f26",
+				"dweb:/ipfs/QmaLF5DW1Ku5hzNFJdaumZkjfT3E3iPjLAzXjSB8kMRnon"
 			]
 		}
 	},

@@ -9,16 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "b",
-						"type": "int256"
-					},
-					{
-						"internalType": "int256",
-						"name": "c",
+						"name": "n",
 						"type": "int256"
 					}
 				],
-				"name": "getSum",
+				"name": "cube",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -26,7 +21,7 @@
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -43,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/function_demo.sol": "FunctionDemo"
+			"contracts/LabCycle/CubeNum.sol": "CubeNum"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +52,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/function_demo.sol": {
-			"keccak256": "0x1e66b54e9491f548811ef0e30125d947e543a8fb21aac9943dc9821414539bcf",
-			"license": "GPL-3.0",
+		"contracts/LabCycle/CubeNum.sol": {
+			"keccak256": "0xebfd4c48238976ba58bc3ab12b8a2f88a538876096e95cb887d5ca895f6823ec",
 			"urls": [
-				"bzz-raw://b96d8cd0ab062a21da065ead8ffaa6a82b2bcdf2a70f915c8025c8bcb63473d5",
-				"dweb:/ipfs/QmSzXtbJzafgr543tnBybbx1gi1NwoJ4w2GCdaLf4XZQ67"
+				"bzz-raw://b905d2508814861a078ba84c20aad552bb40d50429da1b1a7c25f5526ddb33a5",
+				"dweb:/ipfs/Qmb1r363RZZpYnZUGdbq1wDpY1J9PxmxCEhrYswEKVgoXZ"
 			]
 		}
 	},

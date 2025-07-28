@@ -9,16 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "b",
-						"type": "int256"
-					},
-					{
-						"internalType": "int256",
-						"name": "c",
+						"name": "n",
 						"type": "int256"
 					}
 				],
-				"name": "getSum",
+				"name": "even",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -26,7 +21,7 @@
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -43,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/function_demo.sol": "FunctionDemo"
+			"contracts/LabCycle/Swap.sol": "EvenNum"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +52,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/function_demo.sol": {
-			"keccak256": "0x1e66b54e9491f548811ef0e30125d947e543a8fb21aac9943dc9821414539bcf",
-			"license": "GPL-3.0",
+		"contracts/LabCycle/Swap.sol": {
+			"keccak256": "0x0704fcf9a728c359165ab7b5bb85f2c2019c5a242a1109113210b22dbd92a89e",
 			"urls": [
-				"bzz-raw://b96d8cd0ab062a21da065ead8ffaa6a82b2bcdf2a70f915c8025c8bcb63473d5",
-				"dweb:/ipfs/QmSzXtbJzafgr543tnBybbx1gi1NwoJ4w2GCdaLf4XZQ67"
+				"bzz-raw://338d9afe7e0609f44eeacf9d7c0108d516650258af5edc74b24e118164d07f73",
+				"dweb:/ipfs/QmarXrJSJxEmZNTdKg7YeWN9awn8bc61nRsCfoUY2krfRZ"
 			]
 		}
 	},

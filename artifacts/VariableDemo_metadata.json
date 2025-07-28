@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/function_demo.sol": "VariableDemo"
+			"contracts/variablesDemo.sol": "VariableDemo"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -90,7 +90,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/function_demo.sol": {
+		"contracts/variablesDemo.sol": {
 			"keccak256": "0xc0b93029b1457e338b99c18bd1ee765b0502f28b774364d33a2ddbd3ed75c59a",
 			"license": "GPL-3.0",
 			"urls": [
