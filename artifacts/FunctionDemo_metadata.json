@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/function_demo.sol": "FunctionDemo"
+			"contracts/MethodOverloading.sol": "FunctionDemo"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -86,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/function_demo.sol": {
-			"keccak256": "0xe21a96d455a4bad02e9c96801850bf077d45633ca2ecdc74cd330a233f448973",
+		"contracts/MethodOverloading.sol": {
+			"keccak256": "0x23ca6b1172ae08ae483be464cdb89fefa05d865353993a74043d1f2210f9fefa",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://da6cec260ebffdb3ec5624e750f283faaee6ed9bdfefdda615b9514cb4ec54ad",
-				"dweb:/ipfs/QmfAFpGXoqyea3f65q9rsBKu3fb81sUShte35zc9Rs4afY"
+				"bzz-raw://ef8f1d3941eba1ba2639ae2754890d55da5914b34dc22733f04503cd4551e60a",
+				"dweb:/ipfs/QmPSEBBVgX8LtUDjYFPnEdT9CeJTNnQqF2h7J48Hd3PQpk"
 			]
 		}
 	},

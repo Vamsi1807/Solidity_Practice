@@ -7,5 +7,10 @@ contract FunctionDemo{
         int sum = a+b+c;
         return sum;
     }
+
+    function getSum(int b,int c,int d)public view returns(int){
+        int sum = a+b+c+d;
+        return sum;
+    }
     
 }
