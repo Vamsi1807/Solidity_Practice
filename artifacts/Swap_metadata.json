@@ -18,7 +18,36 @@
 						"type": "int256"
 					}
 				],
-				"name": "swap",
+				"name": "swap_third",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "swap_two",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -63,10 +92,10 @@
 	},
 	"sources": {
 		"contracts/LabCycle/Swap.sol": {
-			"keccak256": "0x040f70bcb9f1d5b7b24ce50ba666fe64b1b053dff55a566f5bbbc2d49761bf5d",
+			"keccak256": "0xee26c03dadcbf08fefc1f423c048f4d789e16307a2e57c8abce01be3c99c98b2",
 			"urls": [
-				"bzz-raw://ecabee7fd2c582236c77c9a7a151a938757cd59d0ac79b23a541582f64521f26",
-				"dweb:/ipfs/QmaLF5DW1Ku5hzNFJdaumZkjfT3E3iPjLAzXjSB8kMRnon"
+				"bzz-raw://f508c4b3e37e76146571cc164161f814b02052e00292ac453168fceba25b91b9",
+				"dweb:/ipfs/QmXH5wD2n3zp3FLjKxv8tgx3w5DFSbwZu22uRGLtJ2YJMT"
 			]
 		}
 	},

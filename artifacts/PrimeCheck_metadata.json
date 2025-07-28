@@ -13,12 +13,12 @@
 						"type": "int256"
 					}
 				],
-				"name": "even",
+				"name": "prime",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LabCycle/EvenNum.sol": "EvenNum"
+			"contracts/LabCycle/PimeCheck.sol": "PrimeCheck"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,11 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LabCycle/EvenNum.sol": {
-			"keccak256": "0x0704fcf9a728c359165ab7b5bb85f2c2019c5a242a1109113210b22dbd92a89e",
+		"contracts/LabCycle/PimeCheck.sol": {
+			"keccak256": "0xecda873052775accba64573ec41886024fd72367ec02ac73cd85fb9420c9ad7d",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://338d9afe7e0609f44eeacf9d7c0108d516650258af5edc74b24e118164d07f73",
-				"dweb:/ipfs/QmarXrJSJxEmZNTdKg7YeWN9awn8bc61nRsCfoUY2krfRZ"
+				"bzz-raw://607fb604f87439e256ea5e79e64148f4990f32e83b59b0c7d12765d153221740",
+				"dweb:/ipfs/QmYLJ82RTe7g25gpDDfsNrzdxrFN8wNNigFoapBj9sr6X4"
 			]
 		}
 	},
