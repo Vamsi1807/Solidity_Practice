@@ -3,8 +3,8 @@ pragma solidity ^0.8.14;
 
 contract Swap{
 
-    function swap_third(int a, int b)public pure returns(int, int){
-        int t;
+    function swap_third(int8 a, int8 b)public pure returns(int8, int8){
+        int8 t;
         t=a;
         a=b;
         b=t;
@@ -13,7 +13,7 @@ contract Swap{
         return(a,b);
     }
 
-    function swap_two(int a,int b)public pure returns(int, int){
+    function swap_two(int8 a,int8 b)public pure returns(int8, int8){
         a=a+b;
         b=a-b;
         a=a-b;

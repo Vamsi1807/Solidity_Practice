@@ -8,17 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
+						"internalType": "int16",
 						"name": "n",
-						"type": "int256"
+						"type": "int16"
 					}
 				],
-				"name": "even",
+				"name": "armstrong",
 				"outputs": [
 					{
-						"internalType": "int8",
+						"internalType": "string",
 						"name": "",
-						"type": "int8"
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LabCycle/EvenNum.sol": "EvenNum"
+			"contracts/LabCycle/Armstrong.sol": "Armstrong"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,11 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LabCycle/EvenNum.sol": {
-			"keccak256": "0x4f0ff57267a311dfbd9cd853033c53f7c94aba75aa1891a6dd34812f6e2c1dc6",
+		"contracts/LabCycle/Armstrong.sol": {
+			"keccak256": "0xda2b6fb2d5a9bc4fd188dc0f51d80a2ff5e72eb7bcc51f9e9ca0b1a3e1fc6c7b",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0d981260061eb958808b0c2b31d823b04e09fcf805704dcb6d772bb5ba7e641c",
-				"dweb:/ipfs/QmeyZT3thcgRXQTF74JfC5hQUpgAFmytyoEUarFk4T4WpF"
+				"bzz-raw://65f572ba8ad7f5302b63391c0d5c619dd0ef5218d2eb6fcebbc5a7a22893704f",
+				"dweb:/ipfs/QmVmUqDyagvv3bWUG181R7c4eh55SRp9pmDrJ31U1FHwTo"
 			]
 		}
 	},

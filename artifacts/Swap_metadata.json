@@ -8,27 +8,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "a",
-						"type": "int256"
+						"type": "int8"
 					},
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "b",
-						"type": "int256"
+						"type": "int8"
 					}
 				],
 				"name": "swap_third",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "",
-						"type": "int256"
+						"type": "int8"
 					},
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "",
-						"type": "int256"
+						"type": "int8"
 					}
 				],
 				"stateMutability": "pure",
@@ -37,27 +37,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "a",
-						"type": "int256"
+						"type": "int8"
 					},
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "b",
-						"type": "int256"
+						"type": "int8"
 					}
 				],
 				"name": "swap_two",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "",
-						"type": "int256"
+						"type": "int8"
 					},
 					{
-						"internalType": "int256",
+						"internalType": "int8",
 						"name": "",
-						"type": "int256"
+						"type": "int8"
 					}
 				],
 				"stateMutability": "pure",
@@ -92,10 +92,10 @@
 	},
 	"sources": {
 		"contracts/LabCycle/Swap.sol": {
-			"keccak256": "0xee26c03dadcbf08fefc1f423c048f4d789e16307a2e57c8abce01be3c99c98b2",
+			"keccak256": "0xf5bb05b4a9293f622e8557c5f0b938d3bcdeb03f7ee6e78a8ccf6303121ae4f5",
 			"urls": [
-				"bzz-raw://f508c4b3e37e76146571cc164161f814b02052e00292ac453168fceba25b91b9",
-				"dweb:/ipfs/QmXH5wD2n3zp3FLjKxv8tgx3w5DFSbwZu22uRGLtJ2YJMT"
+				"bzz-raw://a5408787f86cf9681e3a3089b53d46bea5a50130401c3596273033aa3dfb768a",
+				"dweb:/ipfs/QmXDTNt6sNuwNpt4oD2giZHXt9SPk1vaQvUa7o9LbtGMiE"
 			]
 		}
 	},

@@ -8,9 +8,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "n",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"name": "prime",
@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"contracts/LabCycle/PimeCheck.sol": {
-			"keccak256": "0xecda873052775accba64573ec41886024fd72367ec02ac73cd85fb9420c9ad7d",
+			"keccak256": "0x0c1dbbf892456ce0dbaa71017849308a81ddae89280391faa0ddec7e470fc616",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://607fb604f87439e256ea5e79e64148f4990f32e83b59b0c7d12765d153221740",
-				"dweb:/ipfs/QmYLJ82RTe7g25gpDDfsNrzdxrFN8wNNigFoapBj9sr6X4"
+				"bzz-raw://199c7579a7feda509fe70c28617f42ffd1bb825a959681a7cc569077f814121d",
+				"dweb:/ipfs/QmeRBR7HwyYq7RpTu8xScM4cDT98XAF4MCk3W6D2i5QyTi"
 			]
 		}
 	},
