@@ -13,12 +13,12 @@
 						"type": "int16"
 					}
 				],
-				"name": "armstrong",
+				"name": "sumOfDigits",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "int16",
 						"name": "",
-						"type": "string"
+						"type": "int16"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LabCycle/SumOfDigits.sol": "Armstrong"
+			"contracts/LabCycle/SumOfDigits.sol": "SumOfDigits"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"contracts/LabCycle/SumOfDigits.sol": {
-			"keccak256": "0xda2b6fb2d5a9bc4fd188dc0f51d80a2ff5e72eb7bcc51f9e9ca0b1a3e1fc6c7b",
+			"keccak256": "0x08dbd3363eb769aa722e0b3b3ef854afbe94cc5daf7ad50c01020eeafcbda85b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://65f572ba8ad7f5302b63391c0d5c619dd0ef5218d2eb6fcebbc5a7a22893704f",
-				"dweb:/ipfs/QmVmUqDyagvv3bWUG181R7c4eh55SRp9pmDrJ31U1FHwTo"
+				"bzz-raw://0958ea538e6c160087cb0afbd4b388480b6521f12d3015252075a578476e4024",
+				"dweb:/ipfs/QmYwRybynaU9inhqdSmdZ7tDiA3La5mrvHyhX1i6JHuztt"
 			]
 		}
 	},

@@ -8,17 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int16",
+						"internalType": "int8",
 						"name": "n",
-						"type": "int16"
+						"type": "int8"
 					}
 				],
-				"name": "armstrong",
+				"name": "factorial",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "int16",
 						"name": "",
-						"type": "string"
+						"type": "int16"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LabCycle/SumOfDigits.sol": "Armstrong"
+			"contracts/LabCycle/Factorial.sol": "Factorial"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LabCycle/SumOfDigits.sol": {
-			"keccak256": "0xda2b6fb2d5a9bc4fd188dc0f51d80a2ff5e72eb7bcc51f9e9ca0b1a3e1fc6c7b",
-			"license": "GPL-3.0",
+		"contracts/LabCycle/Factorial.sol": {
+			"keccak256": "0xc800082ae35e366708e97b54826470a659cce07ce521fdcbb073e2a4894e0c65",
+			"license": "GPT-3.0",
 			"urls": [
-				"bzz-raw://65f572ba8ad7f5302b63391c0d5c619dd0ef5218d2eb6fcebbc5a7a22893704f",
-				"dweb:/ipfs/QmVmUqDyagvv3bWUG181R7c4eh55SRp9pmDrJ31U1FHwTo"
+				"bzz-raw://69fe51b5384ebdeb5247a2b3b04689b1010be61a0dea185216858f8c8339ccda",
+				"dweb:/ipfs/QmQfjhewfAxwxB4m3bi9voRbZP4Zbz8cvAwy4xcnUbH5Xo"
 			]
 		}
 	},
