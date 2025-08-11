@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LabCycle/SortArr.sol": "SortEle"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LabCycle/SortArr.sol": {
+			"keccak256": "0xda1ebc42bfa738ec5f276c544a15f197de1b7d8af75f3665f0048739d6b96cd9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be8069b47ea85823428d8e46998960113a7ae7419b7496d7f3f749339604f176",
+				"dweb:/ipfs/QmbmmGkeLaWjz37LgfkcGny9FFX4G8Hy2xBXf4jsiJR9No"
+			]
+		}
+	},
+	"version": 1
+}

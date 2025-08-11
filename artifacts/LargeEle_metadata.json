@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "largeEle",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LabCycle/LargeEleInArr.sol": "LargeEle"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LabCycle/LargeEleInArr.sol": {
+			"keccak256": "0xc3d39f8c23fba1bedbbe0304a0d94b222081b2d26598388cb86236906eef63d7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://eb55b9050d754bf8a835e10c956be3b1f1fbdd72122154a8e0d26783322717e4",
+				"dweb:/ipfs/QmWA3bGa8ZVGNQE6CKkZrrHfMWGx5i6jKi3ZqMyjLvF3iW"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sumOfEle",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LabCycle/SumOfEle.sol": "SumOfEle"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LabCycle/SumOfEle.sol": {
+			"keccak256": "0xfea3dc80ebc471bc870a9e434044bb35b3351dfb8137ea347fe8bc25f2ebfdd0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://99ff5b79f31fef6e67991fab58c5b4b02308f4c20ef79240951c1245cf3103a7",
+				"dweb:/ipfs/QmdAAHjaLmrDBHxDCVEPyHoEz72mrdaxcUMgpfkSkiuS3y"
+			]
+		}
+	},
+	"version": 1
+}
