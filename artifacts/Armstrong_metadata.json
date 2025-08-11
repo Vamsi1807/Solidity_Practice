@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LabCycle/SumOfDigits.sol": "Armstrong"
+			"contracts/LabCycle/Armstrong.sol": "Armstrong"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LabCycle/SumOfDigits.sol": {
+		"contracts/LabCycle/Armstrong.sol": {
 			"keccak256": "0xda2b6fb2d5a9bc4fd188dc0f51d80a2ff5e72eb7bcc51f9e9ca0b1a3e1fc6c7b",
 			"license": "GPL-3.0",
 			"urls": [
