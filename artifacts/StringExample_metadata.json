@@ -64,6 +64,24 @@
 			},
 			{
 				"inputs": [],
+				"name": "returnLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "s1",
 				"outputs": [
 					{
@@ -135,11 +153,11 @@
 	},
 	"sources": {
 		"contracts/LabCycle/StringExample.sol": {
-			"keccak256": "0xf3e3f027c85cb523e7da2cd23d1ac8f0b958f33cfee83a3e9d1e0048444b2777",
+			"keccak256": "0xbc671141b072097ffef21b1292bbf090314474632a60f63ba7b2f6d3fbb50a5e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://950c6c4f0e34b630a2455cd7d7295b4d725867c2a6ea5ec7744d1a5542bea342",
-				"dweb:/ipfs/QmWL3fgCutb66o3Fgs5F4kphWq1xMmwD8xhQ1huPEfG4LZ"
+				"bzz-raw://c3b8ab584c18ee50267d0df9e0e70471a9ceeb77d47ea79dd3649dc899beded1",
+				"dweb:/ipfs/QmZmfz1BAFNfDiywDRHNp4fwZZoAmPYRsoYuqWyQNu3jap"
 			]
 		}
 	},

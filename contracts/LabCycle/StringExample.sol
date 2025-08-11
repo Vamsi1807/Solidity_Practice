@@ -25,4 +25,8 @@ contract StringExample{
     function compare() public view returns(bool){
         return(keccak256(abi.encodePacked(s1)) == keccak256(abi.encodePacked(s2)));
     }
+
+    function returnLength()public view returns(uint,uint){
+        return(bytes(s1).length, bytes(s2).length);
+    }
 }
