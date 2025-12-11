@@ -6,22 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "int16",
-						"name": "n",
-						"type": "int16"
-					}
-				],
-				"name": "armstrong",
+				"inputs": [],
+				"name": "add",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint8",
 						"name": "",
-						"type": "string"
+						"type": "uint8"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -38,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LabCycle/Assignment2/Armstrong.sol": "Armstrong"
+			"contracts/Inheritance/Multiple.sol": "A"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LabCycle/Assignment2/Armstrong.sol": {
-			"keccak256": "0xda2b6fb2d5a9bc4fd188dc0f51d80a2ff5e72eb7bcc51f9e9ca0b1a3e1fc6c7b",
+		"contracts/Inheritance/Multiple.sol": {
+			"keccak256": "0x23a5ce978aad59f221940ff226d7f0948fcae8916948d87654edef2a4536a483",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://65f572ba8ad7f5302b63391c0d5c619dd0ef5218d2eb6fcebbc5a7a22893704f",
-				"dweb:/ipfs/QmVmUqDyagvv3bWUG181R7c4eh55SRp9pmDrJ31U1FHwTo"
+				"bzz-raw://b4d6c8d3769aff274a19a546e78f2d891a77f30d7af510e45a69aec01cf68c5e",
+				"dweb:/ipfs/QmbiyfnouvmhE4Rdch7iCejkUVsaCkj689FCRsY3WbDbR8"
 			]
 		}
 	},

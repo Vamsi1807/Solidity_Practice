@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBook",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "affiliation",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Structures_Demo.Author",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_affiliation",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_publisher",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bookid",
+						"type": "uint256"
+					}
+				],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LabCycle/NestedStructuresDemo.sol": "Structures_Demo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LabCycle/NestedStructuresDemo.sol": {
+			"keccak256": "0x8289e27a28dea6d117394d94473c300f046dc518d5b707b762c33c108859f302",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8f714194787337997413267af96ece404a184824d0a123c8a3058d749a0493de",
+				"dweb:/ipfs/QmfCcWchyH3gY1bqacL3WSEn4jokDJxHVVduTn8gBhTQhX"
+			]
+		}
+	},
+	"version": 1
+}

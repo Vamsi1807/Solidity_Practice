@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LabCycle/SumOfEle.sol": "SumOfEle"
+			"contracts/LabCycle/Assignment3/SumOfEle.sol": "SumOfEle"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LabCycle/SumOfEle.sol": {
+		"contracts/LabCycle/Assignment3/SumOfEle.sol": {
 			"keccak256": "0xfea3dc80ebc471bc870a9e434044bb35b3351dfb8137ea347fe8bc25f2ebfdd0",
 			"license": "GPL-3.0",
 			"urls": [

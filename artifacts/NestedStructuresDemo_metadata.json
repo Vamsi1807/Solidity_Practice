@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_t",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_affiliation",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_p",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBook",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_t",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "affiliation",
+								"type": "string"
+							}
+						],
+						"internalType": "struct NestedStructuresDemo.Author",
+						"name": "_a",
+						"type": "tuple"
+					},
+					{
+						"internalType": "string",
+						"name": "_p",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LabCycle/Assignment4/NestedStructuresDemo.sol": "NestedStructuresDemo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LabCycle/Assignment4/NestedStructuresDemo.sol": {
+			"keccak256": "0x4c22939eab4bf4d2d2d875a1822978271d7388ca9e5caf4610a4139a662a1fb1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://12dfadf1e2d92a72c01112487193ebe43da23a1b824b6486d6511124926083a1",
+				"dweb:/ipfs/QmVXVyGaqtRiPs3zMYZEMHPNybAngERHHSt5YTqUcHEiiy"
+			]
+		}
+	},
+	"version": 1
+}
